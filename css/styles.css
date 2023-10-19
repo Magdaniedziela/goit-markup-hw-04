@@ -435,6 +435,10 @@ h2 {
   display: flex;
   align-items: baseline;
 }
+.footer-icons:hover,
+.footer-icons:focus {
+  background-color: #31d0aa;
+}
 /*/PORTFOLIO/*/
 .navigation {
   display: flex;
