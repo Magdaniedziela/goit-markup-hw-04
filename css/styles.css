@@ -33,6 +33,8 @@ ol {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
   width: 1158px;
@@ -217,7 +219,10 @@ h2 {
   border-radius: 4px;
   border: none;
 }
-
+.goals-icons-size {
+  width: 64px;
+  height: 64px;
+}
 .goals-title {
   color: var(--navy-blue);
   font-size: 20px;
@@ -317,6 +322,8 @@ h2 {
 }
 .our-team-icon {
   fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
 }
 .our-team-paragraph {
   color: var(--grey-paragraphs);
@@ -328,6 +335,8 @@ h2 {
   width: calc((100% - 72px) / 4);
 
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our-team {
   background-color: #f4f4fd;
@@ -358,8 +367,8 @@ h2 {
 }
 .company-customers-link:hover,
 .company-customers-link:focus {
-  color: var(--active-links-color);
-  border-color: var(--active-links-color);
+  color: #404bbf;
+  border-color: #404bbf;
 }
 .customers-icon {
   fill: currentColor;
@@ -418,6 +427,10 @@ h2 {
 .footer-social-media-list {
   width: 40px;
   height: 40px;
+}
+.footer-icons {
+  width: 24px;
+  height: 24px;
 }
 .footer-icons {
   display: flex;
