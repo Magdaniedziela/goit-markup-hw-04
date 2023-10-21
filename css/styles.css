@@ -219,10 +219,7 @@ h2 {
   border-radius: 4px;
   border: none;
 }
-.goals-icons-size {
-  width: 64px;
-  height: 64px;
-}
+
 .goals-title {
   color: var(--navy-blue);
   font-size: 20px;
@@ -322,8 +319,6 @@ h2 {
 }
 .our-team-icon {
   fill: #f4f4fd;
-  width: 16px;
-  height: 16px;
 }
 .our-team-paragraph {
   color: var(--grey-paragraphs);
@@ -428,10 +423,7 @@ h2 {
   width: 40px;
   height: 40px;
 }
-.footer-icons {
-  width: 24px;
-  height: 24px;
-}
+
 .footer-icons {
   display: flex;
   align-items: center;
