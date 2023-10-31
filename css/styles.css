@@ -339,14 +339,14 @@ h2 {
 }
 /* Customers */
 .company-customers {
-  display: flex;
   justify-content: center;
   text-align: center;
   gap: 24px;
   padding-bottom: 120x;
+  display: flex;
 }
 .company-customers-button {
-  background-color: var(--background-color);
+  background-color: #fff;
   width: 168px;
   height: 88px;
 }
